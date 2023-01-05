@@ -39,6 +39,6 @@ export default async function handler(req, res) {
     }
     catch (e) {
         console.log(e)
-        return res.status(e.code).send({ message: e.message });
+        return res.status(e.code).json({ message: e.message });
     }
 }
