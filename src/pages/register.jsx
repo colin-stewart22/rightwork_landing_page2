@@ -42,7 +42,7 @@ export default function Register() {
 
     // alert(content.data.tableRange)
 
-    console.log(process.env.GOOGLE_SHEET_ID)
+    console.log(process.env)
 
     console.log(form)
 
