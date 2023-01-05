@@ -1,4 +1,19 @@
 import { google } from "googleapis";
+
+if (!process.env.NETLIFY) {
+  // get local env vars if not in CI
+  // if in CI i expect its already set via the Netlify UI
+  require('dotenv').config();
+}
+// required env vars
+if (!process.env.GOOGLE_CLIENT_EMAIL)
+  throw new Error('no GOOGLE_SERVICE_ACCOUNT_EMAIL env var set');
+if (!process.env.GOOGLE_PRIVATE_KEY)
+  throw new Error('no GOOGLE_PRIVATE_KEY env var set');
+if (!process.env.GOOGLE_SHEET_ID)
+  // spreadsheet key is the long id in the sheets URL
+  throw new Err
+
 export default async function handler(req, res) {
 
     var _a;
