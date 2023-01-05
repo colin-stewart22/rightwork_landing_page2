@@ -1,5 +1,6 @@
 import { google } from "googleapis";
 export default async function handler(req, res) {
+    console.log(process.env.GOOGLE_SHEET_ID)
     var _a;
     if (req.method !== 'POST') {
         return res.status(405).send({ message: 'Only POST requests allowed' });
