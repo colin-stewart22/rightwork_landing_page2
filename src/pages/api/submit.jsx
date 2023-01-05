@@ -1,5 +1,6 @@
 import { google } from "googleapis";
 export default async function handler(req, res) {
+    console.log("test")
     console.log(process.env.GOOGLE_SHEET_ID)
     var _a;
     if (req.method !== 'POST') {
