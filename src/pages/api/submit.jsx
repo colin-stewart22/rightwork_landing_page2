@@ -1,7 +1,7 @@
 import { google } from "googleapis";
 
 export default async function handler(req, res) {
-
+    console.log("test")
     var _a;
     if (req.method !== 'POST') {
         return res.status(405).send({ message: 'Only POST requests allowed' });
@@ -38,7 +38,6 @@ export default async function handler(req, res) {
         });
     }
     catch (e) {
-        console.log(e)
-        return res.status(e.code).json({ message: e.message });
+        return res.status(e.code).json({ message: e.message, test: "This ran" });
     }
 }
