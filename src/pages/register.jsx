@@ -28,7 +28,7 @@ export default function Register() {
       email
     }
 
-    const response = await fetch('https://info.getrightwork.com/.netlify/functions/submit', {
+    const response = await fetch('api/submit', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
