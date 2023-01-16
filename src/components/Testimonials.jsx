@@ -29,39 +29,39 @@ export function Testimonials() {
       className="bg-slate-50 py-20 sm:py-32"
     >
       <div className="w-full">
-        <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="font-display text-2xl tracking-tight text-slate-900 sm:text-4xl px-5">
             RightWork is flexible
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 text-lg tracking-tight text-slate-700 px-8">
             It can be used as a standalone scheduling app or can integrate directly into your current labor management system. Pull schedules from your system, optimize them in RightWork, and push them back in minutes.
           </p>
         </div>
         <div className="mt-20 flex flex-col items-center">
           <h4 className="text-2xl">Integrations</h4>
-          <div className="w-3/4 flex mt-4">
-            <div className="w-1/4 h-full mt-5 flex justify-center">
+          <div className="w-10/12 flex flex-col justify-center items-center md:flex-row mt-4">
+            <div className="w-1/4 h-full mt-4 flex justify-center">
               <Image
                 src={toastLogo}
                 alt=""
                 width={150}
               />
             </div>
-            <div className="w-1/4 h-full mt-5 flex justify-center">
+            <div className="w-1/4 h-full mt-4 flex justify-center">
               <Image
                 src={shiftsLogo}
                 alt=""
                 width={150}
               />
             </div>
-            <div className="w-1/4 h-full flex justify-center">
+            <div className="w-1/4 h-full mt-6 sm:mt-8 flex justify-center">
               <Image
                 src={squareLogo}
                 alt=""
-                width={400}
+                width={150}
               />
             </div>
-            <div className="w-1/4 h-full flex justify-center mt-10">
+            <div className="w-1/4 h-full mt-6 sm:mt-8 mb-6 sm:mb-2 flex justify-center">
               <Image
                 src={lightspeedLogo}
                 alt=""

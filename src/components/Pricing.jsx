@@ -102,19 +102,19 @@ export function Pricing() {
     >
       <Container>
         <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+          <h2 className="font-display text-2xl tracking-tight text-white sm:text-4xl px-5 text-center">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
               <span className="relative">Optimized Labor.</span>
             </span>{' '}
             Immediate ROI.
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          <p className="mt-4 text-lg text-slate-400 px-5 text-center">
             Join the businesses that have invested in improving their labor scheduling system.
           </p>
         </div>
-        <div className="flex justify-center gap-16 -mx-4 mt-16">
-          <div className="w-1/3">
+        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-16 -mx-4 mt-16">
+          <div className="w-9/12 md:w-1/3">
             <Plan
               featured
               name="1-200 locations"
@@ -134,7 +134,7 @@ export function Pricing() {
               ]}
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-9/12 md:w-1/3">
             <Plan
               name="200+ locations"
               price="Enterprise"
