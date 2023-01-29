@@ -7,6 +7,7 @@ import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 import { useRouter } from 'next/router';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 
 export default function Register() {
@@ -69,8 +70,15 @@ export default function Register() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
+          <div className="absolute top-10 left-10">
+            <Link href="/" aria-label="Home">
+              <div>
+                <ArrowBackIcon />
+              </div>
+            </Link>
+          </div>
           <Link href="/" aria-label="Home">
-            <div>
+            <div className="mt-10">
               <Logo className="h-10 w-auto" />
             </div>
           </Link>

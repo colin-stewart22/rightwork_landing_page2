@@ -5,6 +5,7 @@ import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 export default function Login() {
   return (
@@ -14,6 +15,13 @@ export default function Login() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
+          <div className="absolute top-10 left-10">
+            <Link href="/" aria-label="Home">
+              <div>
+                <ArrowBackIcon />
+              </div>
+            </Link>
+          </div>
           <Link href="/" aria-label="Home">
             <Logo className="h-10 w-auto" />
           </Link>

@@ -63,7 +63,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      <p className="order-first font-display text-3xl lg:text-4xl font-light tracking-tight text-white">
         {price}
       </p>
       <ul

@@ -105,8 +105,12 @@ export function Header() {
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#secondary-features">Implementation</NavLink>
               {/* <NavLink href="#testimonials">Integrations</NavLink> */}
-              <NavLink href="#pricing">Pricing</NavLink>
-              <NavLink href="#faq">FAQ</NavLink>
+              <div className="hidden lg:block">
+                <NavLink href="#pricing">Pricing</NavLink>
+              </div>
+              <div className="hidden lg:block">
+                <NavLink href="#faq">FAQ</NavLink>
+              </div>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

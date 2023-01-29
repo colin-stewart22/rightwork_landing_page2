@@ -8,6 +8,7 @@ import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 import screenshotPlaceholder1 from '@/images/screenshots/placeholder1.png'
+import screenshotPlaceholder2 from '@/images/screenshots/placeholder2.png'
 
 
 const features = [
@@ -51,7 +52,7 @@ const features = [
       'Onboard pilot locations and gather feedback.',
     description:
       'We quickly onboard a select few of your locations with minimal disruption, providing immediate value while refining your labor model. We then collect feedback from your managers and help quantify value to inform future deployment plan.',
-    image: screenshotPlaceholder1,
+    image: screenshotPlaceholder2,
     icon: function InventoryIcon() {
       return (
         <>
@@ -138,12 +139,12 @@ function FeaturesMobile() {
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
           <div className="relative mt-10 pb-10">
             <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
-            <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <div className="relative mx-auto w-[28rem] sm:w-[40rem]  overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
                 src={feature.image}
                 alt=""
-                sizes="52.75rem"
+                sizes="40rem"
               />
             </div>
           </div>
@@ -177,19 +178,19 @@ function FeaturesDesktop() {
             ))}
           </Tab.List>
           <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
-            <div className="-mx-5 flex">
+            <div className="mx-24 flex">
               {features.map((feature, featureIndex) => (
                 <Tab.Panel
                   static
                   key={feature.name}
                   className={clsx(
                     'px-5 transition duration-500 ease-in-out [&:not(:focus-visible)]:focus:outline-none',
-                    featureIndex !== selectedIndex && 'opacity-60'
+                    featureIndex !== selectedIndex && 'opacity-30'
                   )}
                   style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
                   aria-hidden={featureIndex !== selectedIndex}
                 >
-                  <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+                  <div className="w-[52.75rem] h-[28rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
                     <Image
                       className="w-full"
                       src={feature.image}

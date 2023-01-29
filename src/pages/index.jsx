@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RightWork - Auto-scheduling made easy and accurate</title>
+        <title>RightWork - Auto-scheduling made simple</title>
         <meta
           name="description"
-          content="Auto-scheduling made easy and accurate."
+          content="Auto-scheduling made simple."
         />
       </Head>
       <Header />
