@@ -22,7 +22,7 @@ const features = [
     image: screenshotTest2,
   },
   {
-    title: 'Important imputs',
+    title: 'Important inputs',
     description:
       "Make your employees happy and churn less with schedules that adhere to their availability and preferences.",
     image: screenshotTest3,

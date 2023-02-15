@@ -8,6 +8,13 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import ScheduleIcon from '@mui/icons-material/Schedule';
+import FlareIcon from '@mui/icons-material/Flare';
+
 function MobileNavLink({ href, children }) {
   return (
     <Popover.Button as={Link} href={href} className="block w-full p-2">
@@ -98,11 +105,107 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
+              <div className="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <Popover>
+                  <Popover.Button
+                    className="relative z-10 flex items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
+                    aria-label="Toggle Navigation"
+                  >
+                    {({ open }) =>
+                    <div className="flex items-center" open={open}>
+                      <h3>Products</h3>
+                      <ArrowDropDownIcon />
+                    </div>}
+                  </Popover.Button>
+                  <Transition.Root>
+                    <Transition.Child
+                      as={Fragment}
+                      enter="duration-150 ease-out"
+                      enterFrom="opacity-0"
+                      enterTo="opacity-100"
+                      leave="duration-150 ease-in"
+                      leaveFrom="opacity-100"
+                      leaveTo="opacity-0"
+                    >
+                      <div></div>
+                    </Transition.Child>
+                    <Transition.Child
+                      as={Fragment}
+                      enter="duration-150 ease-out"
+                      enterFrom="opacity-0 scale-95"
+                      enterTo="opacity-100 scale-100"
+                      leave="duration-100 ease-in"
+                      leaveFrom="opacity-100 scale-100"
+                      leaveTo="opacity-0 scale-95"
+                    >
+                      <Popover.Panel
+                        as="div"
+                        className="absolute inset-x-52 top-full mt-2 flex origin-top flex-col rounded-2xl bg-white p-7 text-lg tracking-tight text-slate-900 shadow-2xl ring-1 ring-slate-900/5 w-[450px]"
+                      >
+                        <div>
+                          <h2 className="text-sm font-bold">Key Product Features</h2>
+                          <Popover.Button as={Link} href="/#features">
+                            <div className="flex hover:bg-gray-100 rounded-lg p-2 mt-2">
+                              <div className="w-20">
+                                <div className="bg-blue-100 w-12 h-12 rounded-full mt-1 flex justify-center items-center text-blue-500">
+                                  <CalendarMonthIcon />
+                                </div>
+                              </div>
+                              <div>
+                                <div className="flex items-center">
+                                  <h3 className="text-base ml-3 text-gray-700">RightWork Scheduling</h3>
+                                  <ChevronRightIcon />
+                                </div>
+                                <p className="text-gray-500 text-sm ml-3">Automate your labor scheduling process - save time, control costs, and make amazing schedules</p>
+                              </div>
+                            </div>
+                          </Popover.Button>
+                        </div>
+                        <hr className="m-4 border-slate-300/40" />
+                        <div>
+                          <h2 className="text-sm font-bold">Additional Options</h2>
+                          <Popover.Button as={Link} href="/rightspark">
+                            <div className="flex hover:bg-gray-100 rounded-lg mt-2 p-2">
+                              <div className="w-20">
+                                <div className="bg-blue-100 w-12 h-12 rounded-full mt-1 flex justify-center items-center text-blue-500">
+                                  <FlareIcon />
+                                </div>
+                              </div>
+                              <div>
+                                <div className="flex items-center">
+                                  <h3 className="text-base ml-3 text-gray-700">RightSpark Incentives</h3>
+                                  <ChevronRightIcon />
+                                </div>
+                                <p className="text-gray-500 text-sm ml-3">Align incentives between your stores and your most important metrics for optimal business performance</p>
+                              </div>
+                            </div>
+                          </Popover.Button>
+                          <Popover.Button as={Link} href="/rightwait">
+                            <div className="flex hover:bg-gray-100 rounded-lg p-2 mt-2">
+                              <div className="w-20">
+                                <div className="bg-blue-100 w-12 h-12 rounded-full mt-1 flex justify-center items-center text-blue-500">
+                                  <ScheduleIcon />
+                                </div>
+                              </div>
+                              <div>
+                                <div className="flex items-center">
+                                  <h3 className="text-base ml-3 text-gray-700">RightWait Waitlist</h3>
+                                  <ChevronRightIcon />
+                                </div>
+                                <p className="text-gray-500 text-sm ml-3">Seamlessly manage your waiting and host experience - turn tables faster and delight your customers</p>
+                              </div>
+                            </div>
+                          </Popover.Button>
+                        </div>
+                      </Popover.Panel>
+                    </Transition.Child>
+                  </Transition.Root>
+                </Popover>
+              </div>
               <NavLink href="#secondary-features">Implementation</NavLink>
               {/* <NavLink href="#testimonials">Integrations</NavLink> */}
               <div className="hidden lg:block">

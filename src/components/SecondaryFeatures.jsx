@@ -190,7 +190,7 @@ function FeaturesDesktop() {
                   style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
                   aria-hidden={featureIndex !== selectedIndex}
                 >
-                  <div className="w-[52.75rem] h-[28rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+                  <div className="w-[52.75rem] h-[28rem] overflow-hidden rounded-xl bg-white shadow-xl shadow-slate-900/5 ring-1 ring-slate-500/10">
                     <Image
                       className="w-full"
                       src={feature.image}
