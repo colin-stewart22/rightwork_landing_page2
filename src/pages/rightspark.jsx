@@ -35,8 +35,8 @@ export default function RightSpark() {
                 </Link>
               </div>
             </div>
-            <div className="mt-16 flow-root sm:mt-24 pb-10">
-              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+            <div className="mt-16 flow-root sm:mt-24 pb-16">
+
                 <Image
                   className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
                   src={backgroundImage}
@@ -45,14 +45,14 @@ export default function RightSpark() {
                   height={946}
                   unoptimized
                 />
-                <div className="p-5">
+                <div>
                   <Image
                     src={contestImage}
                     alt=""
-                    style={{borderRadius: "10px", border: "3px solid #1C2541"}}
+                    style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                   />
                 </div>
-              </div>
+
             </div>
           </div>
           <div>

@@ -89,8 +89,11 @@ function MobileNavigation() {
             <MobileNavLink href="#testimonials">Integrations</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
             <MobileNavLink href="#faq">FAQ</MobileNavLink>
-            <MobileNavLink href="/register">Contact Sales</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
+            <MobileNavLink href="/rightspark">RightSpark <FlareIcon /></MobileNavLink>
+            <MobileNavLink href="/rightwait">RightWait <ScheduleIcon /></MobileNavLink>
+            <hr className="m-2 border-slate-300/40" />
+            <MobileNavLink href="/register">Contact Sales</MobileNavLink>
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -206,13 +209,13 @@ export function Header() {
                   </Transition.Root>
                 </Popover>
               </div>
-              <NavLink href="#secondary-features">Implementation</NavLink>
+              <NavLink href="/#secondary-features">Implementation</NavLink>
               {/* <NavLink href="#testimonials">Integrations</NavLink> */}
               <div className="hidden lg:block">
-                <NavLink href="#pricing">Pricing</NavLink>
+                <NavLink href="/#pricing">Pricing</NavLink>
               </div>
               <div className="hidden lg:block">
-                <NavLink href="#faq">FAQ</NavLink>
+                <NavLink href="/#faq">FAQ</NavLink>
               </div>
             </div>
           </div>

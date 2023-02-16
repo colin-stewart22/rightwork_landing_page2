@@ -9,6 +9,12 @@ import contestImage3 from '@/images/screenshots/contest3.png'
 import contestImage4 from '@/images/screenshots/contest4.png'
 import contestImage5 from '@/images/screenshots/contest5.png'
 import ScheduleIcon from '@mui/icons-material/Schedule';
+import waitlistImage from '@/images/screenshots/waitlist.png'
+import waitlistImage2 from '@/images/screenshots/waitlist2.png'
+import waitlistImage3 from '@/images/screenshots/waitlist3.png'
+import waitlistImage4 from '@/images/screenshots/waitlist4.png'
+import waitlistImage5 from '@/images/screenshots/waitlist5.png'
+import waitlistImage6 from '@/images/screenshots/waitlist6.png'
 
 export default function RightWait() {
   return(
@@ -34,23 +40,21 @@ export default function RightWait() {
                 </Link>
               </div>
             </div>
-            <div className="mt-16 flow-root sm:mt-24 pb-10">
-              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+            <div className="mt-16 flow-root sm:mt-24 pb-16">
+              <Image
+                className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
+                src={backgroundImage}
+                alt=""
+                width={2000}
+                height={946}
+                unoptimized
+              />
+              <div>
                 <Image
-                  className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
-                  src={backgroundImage}
+                  src={waitlistImage6}
                   alt=""
-                  width={2000}
-                  height={946}
-                  unoptimized
+                  style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                 />
-                <div className="p-5">
-                  <Image
-                    src={contestImage}
-                    alt=""
-                    style={{borderRadius: "10px", border: "3px solid #1C2541"}}
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -70,9 +74,17 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 lg:mt-16 xl:mt-1 relative">
                     <div>
                       <Image
-                        src={contestImage2}
+                        src={waitlistImage4}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
+                      />
+                    </div>
+                    <div className="hidden lg:block absolute -left-32 -bottom-24">
+                      <Image
+                        src={waitlistImage3}
+                        alt=""
+                        style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
+                        width={250}
                       />
                     </div>
                   </div>
@@ -87,9 +99,9 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 hidden lg:flex justify-center items-center">
                     <div>
                       <Image
-                        src={contestImage3}
+                        src={waitlistImage}
                         alt=""
-                        style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
+                        style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
                     </div>
@@ -106,9 +118,9 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 flex justify-center items-center lg:hidden">
                     <div>
                       <Image
-                        src={contestImage3}
+                        src={waitlistImage}
                         alt=""
-                        style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
+                        style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
                     </div>
@@ -133,7 +145,7 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 lg:mt-16 xl:mt-1">
                     <div>
                       <Image
-                        src={contestImage2}
+                        src={waitlistImage5}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
@@ -150,14 +162,13 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 hidden lg:flex justify-center items-center">
                     <div>
                       <Image
-                        src={contestImage3}
+                        src={waitlistImage2}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                        width={300}
                       />
                     </div>
                   </div>
-                  <div className="px-6 md:px-0 lg:pt-4 lg:pl-1">
+                  <div className="px-6 md:px-0 lg:pt-4 lg:pl-20">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
                       <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Take advantage of customer data</h2>
                       <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Better Labor Recommendations</p>
@@ -169,10 +180,9 @@ export default function RightWait() {
                   <div className="sm:px-6 lg:px-0 flex justify-center items-center lg:hidden">
                     <div>
                       <Image
-                        src={contestImage3}
+                        src={waitlistImage2}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                        width={300}
                       />
                     </div>
                   </div>
