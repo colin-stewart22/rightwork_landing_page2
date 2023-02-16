@@ -14,6 +14,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import ScheduleIcon from '@mui/icons-material/Schedule';
 import FlareIcon from '@mui/icons-material/Flare';
+import WorkspacesIcon from '@mui/icons-material/Workspaces';
 
 function MobileNavLink({ href, children }) {
   return (
@@ -171,6 +172,22 @@ export function Header() {
                         <hr className="m-4 border-slate-300/40" />
                         <div>
                           <h2 className="text-sm font-bold">Additional Options</h2>
+                          <Popover.Button as={Link} href="/rightstandards">
+                            <div className="flex hover:bg-gray-100 rounded-lg mt-2 p-2">
+                              <div className="w-20">
+                                <div className="bg-blue-100 w-12 h-12 rounded-full mt-1 flex justify-center items-center text-blue-500">
+                                  <WorkspacesIcon />
+                                </div>
+                              </div>
+                              <div>
+                                <div className="flex items-center">
+                                  <h3 className="text-base ml-3 text-gray-700">RightStandards Labor Model</h3>
+                                  <ChevronRightIcon />
+                                </div>
+                                <p className="text-gray-500 text-sm ml-3">Easily build and manage your labor model with store-specific labor standards</p>
+                              </div>
+                            </div>
+                          </Popover.Button>
                           <Popover.Button as={Link} href="/rightspark">
                             <div className="flex hover:bg-gray-100 rounded-lg mt-2 p-2">
                               <div className="w-20">

@@ -7,8 +7,10 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
-import screenshotPlaceholder1 from '@/images/screenshots/placeholder1.png'
+import screenshotPlaceholder1 from '@/images/screenshots/standards.png'
 import screenshotPlaceholder2 from '@/images/screenshots/placeholder2.png'
+import screenshotPlaceholder3 from '@/images/screenshots/placeholder1.png'
+
 
 
 const features = [
@@ -80,7 +82,7 @@ const features = [
       'Roll out broadly and continuously improve.',
     description:
       'Using an implementation plan backed by real results, we roll out across your entire organization (or parts of it). Our customer success team will train frontline management and staff, and then work with you to provide support and implement feedback.',
-    image: screenshotPlaceholder1,
+    image: screenshotPlaceholder3,
     icon: function ContactsIcon() {
       return (
         <>

@@ -3,15 +3,15 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import Image from 'next/image'
 import backgroundImage from '@/images/background-faqs.jpg'
-import ScheduleIcon from '@mui/icons-material/Schedule';
-import waitlistImage from '@/images/screenshots/waitlist.png'
-import waitlistImage2 from '@/images/screenshots/waitlist2.png'
-import waitlistImage3 from '@/images/screenshots/waitlist3.png'
-import waitlistImage4 from '@/images/screenshots/waitlist4.png'
-import waitlistImage5 from '@/images/screenshots/waitlist5.png'
-import waitlistImage6 from '@/images/screenshots/waitlist6.png'
+import standardsImage from '@/images/screenshots/standards.png'
+import standardsImage2 from '@/images/screenshots/standards2.png'
+import standardsImage3 from '@/images/screenshots/standards3.png'
+import standardsImage4 from '@/images/screenshots/standards4.png'
+import standardsImage5 from '@/images/screenshots/standards5.png'
+import standardsImage6 from '@/images/screenshots/standards6.png'
+import WorkspacesIcon from '@mui/icons-material/Workspaces';
 
-export default function RightWait() {
+export default function RightStandards() {
   return(
     <div className="overflow-hidden">
       <Header />
@@ -19,12 +19,12 @@ export default function RightWait() {
         <div className="relative py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto w-[70%] text-center">
-              <h1 className="text-2xl text-gray-600 font-bold font-display">RightWait <ScheduleIcon /></h1>
+              <h1 className="text-2xl text-gray-600 font-bold font-display">RightStandards <WorkspacesIcon /></h1>
               <h3 className="text-2xl font-medium text-gray-900 sm:text-5xl mt-3">
-                Decrease wait times, increase table turnover, and delight customers
+                Take control of your labor standards to generate better forecasts
               </h3>
               <p className="mt-6 text-lg text-gray-600">
-                Effortlessly manage your waitlist and customer seating preferences - complete with automated text updates, simplified reservations, and integration with RightWork scheduling for better forecasting.
+                Easily build and manage your labor model with store-specific inputs and then deploy directly to RightWork or other top workforce management solutions with one click.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link
@@ -46,7 +46,7 @@ export default function RightWait() {
               />
               <div>
                 <Image
-                  src={waitlistImage6}
+                  src={standardsImage}
                   alt=""
                   style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                 />
@@ -59,27 +59,27 @@ export default function RightWait() {
                 <div className="grid grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
                   <div className="px-6 md:px-0 lg:pt-4 lg:pr-4">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Allow customers to join your waitlist from anywhere</h2>
-                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ultimate Flexibility</p>
-                      <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Experience the benefits of virtual waitlists by offering customers the option to sign up through multiple channels. Guests can easily join your waitlist through a kiosk, their phone, or your website.
-                      </p>
+                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Customize your labor model with ease</h2>
+                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Easy Labor Standard Management</p>
+                      <ul>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Quickly input and manage labor standards with an intuitive interface and easy imports.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Customize labor models to fit your business needs and optimize workforce management.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Keep up with location-specific labor requirements by easily updating labor standards.
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                  <div className="sm:px-6 lg:px-0 lg:mt-16 xl:mt-1 relative">
+                  <div className="sm:px-6 lg:px-0 lg:mt-16 xl:mt-16">
                     <div>
                       <Image
-                        src={waitlistImage4}
+                        src={standardsImage2}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                      />
-                    </div>
-                    <div className="hidden lg:block absolute -left-32 -bottom-24">
-                      <Image
-                        src={waitlistImage3}
-                        alt=""
-                        style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                        width={250}
                       />
                     </div>
                   </div>
@@ -91,32 +91,38 @@ export default function RightWait() {
             <div className="bg-white py-24 sm:py-32">
               <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
-                  <div className="sm:px-6 lg:px-0 hidden lg:flex justify-center items-center">
+                  <div className="sm:px-6 lg:px-0 hidden lg:block mt-20">
                     <div>
                       <Image
-                        src={waitlistImage}
+                        src={standardsImage3}
                         alt=""
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                        width={300}
                       />
                     </div>
                   </div>
-                  <div className="px-6 md:px-0 lg:pt-4 lg:pl-1">
+                  <div className="px-6 md:px-0 lg:pt-4 lg:pl-16">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">More effective communtication with customers</h2>
-                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Dynamic, Automated Texts</p>
-                      <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Send automated, customizable texts to your waiting customers to update them on their place in line so they can go do whatever they please. Say goodbye to traditional lines and start delighting customers.
-                      </p>
+                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">See how input standards affect forecasts in real-time</h2>
+                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sandbox/Playground for Testing</p>
+                      <ul>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Test different inputs and demand forecasts to find the optimal labor model for your business.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Accurately predict labor needs so your forecasts do not produce over or understaffing.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Increase workforce efficiency by making informed decisions about labor management.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="sm:px-6 lg:px-0 flex justify-center items-center lg:hidden">
                     <div>
                       <Image
-                        src={waitlistImage}
+                        src={standardsImage3}
                         alt=""
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
-                        width={300}
                       />
                     </div>
                   </div>
@@ -130,17 +136,25 @@ export default function RightWait() {
                 <div className="grid grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
                   <div className="px-6 md:px-0 lg:pt-4 lg:pr-4">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Simplify appointment booking and scheduling</h2>
-                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Reservations Made Easy</p>
-                      <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Streamline your appointment booking and scheduling process with our online booking option. With automated reminders and self-service updates, guests can easily manage their appointments without involving your staff.
-                      </p>
+                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Effortlessly manage your different labor model versions</h2>
+                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Version Control System</p>
+                      <ul>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Keep track of all changes made to labor models with our Git-style version control system.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Revert back to previous labor models and analyze the impact of any changes made.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Collaborate with team members on labor model management with full transparency and accountability.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="sm:px-6 lg:px-0 lg:mt-16 xl:mt-1">
                     <div>
                       <Image
-                        src={waitlistImage5}
+                        src={standardsImage6}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
@@ -154,10 +168,10 @@ export default function RightWait() {
             <div className="bg-white py-24 sm:py-32">
               <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
-                  <div className="sm:px-6 lg:px-0 hidden lg:flex justify-center items-center">
+                  <div className="sm:px-6 lg:px-0 hidden lg:flex justify-center items-center mt-20">
                     <div>
                       <Image
-                        src={waitlistImage2}
+                        src={standardsImage5}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
@@ -165,17 +179,25 @@ export default function RightWait() {
                   </div>
                   <div className="px-6 md:px-0 lg:pt-4 lg:pl-20">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Take advantage of customer data</h2>
-                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Better Labor Recommendations</p>
-                      <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Used in conjuctions with the RightWork scheduling app, get more accurate, real-time demand forecasts which allows you to schedule labor more efficiently.
-                      </p>
+                      <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-600">Streamline your labor management workflow</h2>
+                      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Seamless Integration with RightWork</p>
+                      <ul>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Easily integrate your labor model with RightWork for streamlined workforce management.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Optimize labor budgets and forecasts with accurate, location-specific labor standards.
+                        </li>
+                        <li className="mt-6 text-lg leading-8 text-gray-600">
+                          - Turn those forecasts and budgets directly into optimal schedules with RightWorks auto-scheduling feature.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div className="sm:px-6 lg:px-0 flex justify-center items-center lg:hidden">
                     <div>
                       <Image
-                        src={waitlistImage2}
+                        src={standardsImage5}
                         alt=""
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
