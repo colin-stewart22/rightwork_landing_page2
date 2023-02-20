@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 
-export default function Register() {
+export default function Contact() {
 
   const [firstName, setFirstName] = React.useState("")
   const [lastName, setLastName] = React.useState("")
