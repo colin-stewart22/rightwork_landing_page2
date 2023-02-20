@@ -91,6 +91,7 @@ function MobileNavigation() {
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
             <MobileNavLink href="#faq">FAQ</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
+            <MobileNavLink href="/rightstandards">RightSpark <WorkspacesIcon /></MobileNavLink>
             <MobileNavLink href="/rightspark">RightSpark <FlareIcon /></MobileNavLink>
             <MobileNavLink href="/rightwait">RightWait <ScheduleIcon /></MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
