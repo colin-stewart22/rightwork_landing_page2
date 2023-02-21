@@ -20,24 +20,28 @@ const features = [
     description:
       "With one click, create a new schedule, fill shifts, or adjust existing shifts to meet your demand most efficiently.",
     image: screenshotTest2,
+    imageAlt: "A screenshot of the RightWork's weekly scheduling view."
   },
   {
     title: 'Important inputs',
     description:
       "Make your employees happy and churn less with schedules that adhere to their availability and preferences.",
     image: screenshotTest3,
+    imageAlt: "A screenshot of an Edit Availability modal showing all the potential inputs for a particular employee's availability and preferred times."
   },
   {
     title: 'Detailed forecasting',
     description:
       "See sales and labor forecasts across the day so you know how many employees and types of roles are needed for optimal coverage.",
     image: screenshotTest4,
+    imageAlt: "A screenshot of a Deployment Guide showing a bar chart of the employee count and roles at specific times across the day."
   },
   {
     title: '360 degree reporting',
     description:
       'Gain a comprehensive understanding of your labor costs and business performance across multiple locations through easy-to-read email reports.',
     image: screenshotTest5,
+    imageAlt: "A screenshot of a Coverage Graph showing a bar chart of the optimal vs scheduled workload at specific times across the day."
   },
 ]
 
@@ -68,7 +72,7 @@ export function PrimaryFeatures() {
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
         src={backgroundImage}
-        alt=""
+        alt="A background gradient image with shades of blue and purple."
         width={2245}
         height={1636}
         unoptimized
@@ -141,7 +145,7 @@ export function PrimaryFeatures() {
                       <Image
                         className="w-full lg:w-11/12"
                         src={feature.image}
-                        alt=""
+                        alt={feature.imageAlt}
                         priority
                         sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
                       />

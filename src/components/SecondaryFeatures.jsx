@@ -20,6 +20,7 @@ const features = [
     description:
       'Our data science team works with you to gather the employee, store, and labor data needed to build a custom labor model, while also determining viability, necessary integrations, and expected ROI.',
     image: screenshotPlaceholder1,
+    imageAlt: "A screenshot showing a table with a list of a store's plays.",
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -55,6 +56,7 @@ const features = [
     description:
       'We quickly onboard a select few of your locations with minimal disruption, providing immediate value while refining your labor model. We then collect feedback from your managers and help quantify value to inform future deployment plan.',
     image: screenshotPlaceholder2,
+    imageAlt: "A close-up screenshot of the RightWork's daily scheduling view.",
     icon: function InventoryIcon() {
       return (
         <>
@@ -83,6 +85,7 @@ const features = [
     description:
       'Using an implementation plan backed by real results, we roll out across your entire organization (or parts of it). Our customer success team will train frontline management and staff, and then work with you to provide support and implement feedback.',
     image: screenshotPlaceholder3,
+    imageAlt: "A close-up screenshot of the RightWork's weekly scheduling view.",
     icon: function ContactsIcon() {
       return (
         <>
@@ -145,7 +148,7 @@ function FeaturesMobile() {
               <Image
                 className="w-full"
                 src={feature.image}
-                alt=""
+                alt={feature.imageAlt}
                 sizes="40rem"
               />
             </div>
@@ -196,7 +199,7 @@ function FeaturesDesktop() {
                     <Image
                       className="w-full"
                       src={feature.image}
-                      alt=""
+                      alt={feature.imageAlt}
                       sizes="52.75rem"
                     />
                   </div>

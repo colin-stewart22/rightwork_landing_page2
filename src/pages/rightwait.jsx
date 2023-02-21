@@ -39,7 +39,7 @@ export default function RightWait() {
               <Image
                 className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
                 src={backgroundImage}
-                alt=""
+                alt="A background gradient image with shades of pink and light blue."
                 width={2000}
                 height={946}
                 unoptimized
@@ -47,7 +47,7 @@ export default function RightWait() {
               <div>
                 <Image
                   src={waitlistImage6}
-                  alt=""
+                  alt="A screenshot showing the backend of a waitlist app with a table of people waiting with relevant information."
                   style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                 />
               </div>
@@ -70,14 +70,14 @@ export default function RightWait() {
                     <div>
                       <Image
                         src={waitlistImage4}
-                        alt=""
+                        alt="A screenshot showing the frontend of a waitlist app with relative inputs like party size and type of seating preferred."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
                     <div className="hidden lg:block absolute -left-32 -bottom-24">
                       <Image
                         src={waitlistImage3}
-                        alt=""
+                        alt="A screenshot showing a ticket received after entering the inputs for the waitlist app."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={250}
                       />
@@ -95,7 +95,7 @@ export default function RightWait() {
                     <div>
                       <Image
                         src={waitlistImage}
-                        alt=""
+                        alt="A screenshot showing a text conversation between someone waiting and a bot giving updates on their status."
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
@@ -114,7 +114,7 @@ export default function RightWait() {
                     <div>
                       <Image
                         src={waitlistImage}
-                        alt=""
+                        alt="A screenshot showing a text conversation between someone waiting and a bot giving updates on their status."
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
@@ -141,7 +141,7 @@ export default function RightWait() {
                     <div>
                       <Image
                         src={waitlistImage5}
-                        alt=""
+                        alt="A screenshot of a waitlist app where the user can enter in their phone number or click on a button to skip."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -176,7 +176,7 @@ export default function RightWait() {
                     <div>
                       <Image
                         src={waitlistImage2}
-                        alt=""
+                        alt="A screenshot of a Deployment Guide showing a bar chart of the employee count and roles at specific times across the day."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>

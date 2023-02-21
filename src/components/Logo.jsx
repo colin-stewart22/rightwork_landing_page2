@@ -6,7 +6,7 @@ export function Logo(props) {
     <div className="mb-1 mr-2">
       <Image
         src={logo}
-        alt=""
+        alt="A picture of the RightWork logo"
         width={150}
       />
     </div>

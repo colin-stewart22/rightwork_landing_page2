@@ -40,7 +40,7 @@ export default function RightSpark() {
                 <Image
                   className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
                   src={backgroundImage}
-                  alt=""
+                  alt="A background gradient image with shades of pink and light blue."
                   width={2000}
                   height={946}
                   unoptimized
@@ -48,7 +48,7 @@ export default function RightSpark() {
                 <div>
                   <Image
                     src={contestImage}
-                    alt=""
+                    alt="A screenshot of the main page of a store contest where it shows relevant information about the contest, a table of the weekly progress, and some cards showing different metrics or expected payouts."
                     style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                   />
                 </div>
@@ -92,14 +92,14 @@ export default function RightSpark() {
                     <div>
                       <Image
                         src={contestImage2}
-                        alt=""
+                        alt="A screenshot showing the Create a Contest page where there are inputs for all the options to set up a contest."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
                     <div className="absolute -bottom-52 -left-20 hidden xl:block">
                       <Image
                         src={contestImage5}
-                        alt=""
+                        alt="A screenshot showing a competition between different stores including the places and the payouts."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={600}
                       />
@@ -117,7 +117,7 @@ export default function RightSpark() {
                     <div className="lg:absolute">
                       <Image
                         src={contestImage3}
-                        alt=""
+                        alt="A screenshot of a modal for inputting the metric and payouts for a standalone contest."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
@@ -125,7 +125,7 @@ export default function RightSpark() {
                     <div className="lg:absolute left-60 top-32 hidden lg:block">
                       <Image
                         src={contestImage4}
-                        alt=""
+                        alt="A screenshot of a modal for inputting the metric and payouts for a competition contest."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
@@ -164,7 +164,7 @@ export default function RightSpark() {
                     <div className="md:mr-48 mr-24">
                       <Image
                         src={contestImage3}
-                        alt=""
+                        alt="A screenshot of a modal for inputting the metric and payouts for a standalone contest."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />
@@ -172,7 +172,7 @@ export default function RightSpark() {
                     <div className="absolute md:right-48 right-10 top-48 md:top-20">
                       <Image
                         src={contestImage4}
-                        alt=""
+                        alt="A screenshot of a modal for inputting the metric and payouts for a competition contest."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                         width={300}
                       />

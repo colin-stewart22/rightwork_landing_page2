@@ -43,28 +43,28 @@ export function Testimonials() {
             <div className="w-1/4 h-full mt-4 flex justify-center">
               <Image
                 src={toastLogo}
-                alt=""
+                alt="A picture of the Toast logo"
                 width={150}
               />
             </div>
             <div className="w-1/4 h-full mt-4 flex justify-center">
               <Image
                 src={shiftsLogo}
-                alt=""
+                alt="A picture of the 7shift logo"
                 width={150}
               />
             </div>
             <div className="w-1/4 h-full mt-6 sm:mt-8 flex justify-center">
               <Image
                 src={squareLogo}
-                alt=""
+                alt="A picture of the Square logo"
                 width={150}
               />
             </div>
             <div className="w-1/4 h-full mt-6 sm:mt-8 mb-6 sm:mb-2 flex justify-center">
               <Image
                 src={lightspeedLogo}
-                alt=""
+                alt="A picture of the Lightspeed logo"
                 width={150}
                 height={50}
               />

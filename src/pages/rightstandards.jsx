@@ -39,7 +39,7 @@ export default function RightStandards() {
               <Image
                 className="absolute top-0 max-w-none translate-x-[-30%] -translate-y-1/4 -z-10"
                 src={backgroundImage}
-                alt=""
+                alt="A background gradient image with shades of pink and light blue."
                 width={2000}
                 height={946}
                 unoptimized
@@ -47,7 +47,7 @@ export default function RightStandards() {
               <div>
                 <Image
                   src={standardsImage}
-                  alt=""
+                  alt="A screenshot showing a table with a list of a store's plays."
                   style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                 />
               </div>
@@ -78,7 +78,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage2}
-                        alt=""
+                        alt="A screenshot showing a table where you can input a routine for a the Labor Model."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -95,7 +95,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage3}
-                        alt=""
+                        alt="A screenshot of a Coverage Graph showing a bar chart of the optimal vs scheduled workload at specific times across the day."
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -121,7 +121,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage3}
-                        alt=""
+                        alt="A screenshot of a Coverage Graph showing a bar chart of the optimal vs scheduled workload at specific times across the day."
                         style={{borderRadius: "20px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -155,7 +155,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage6}
-                        alt=""
+                        alt="A screenshot showing a list of commits to the Labor Model and one of the list items is selected with more information about that commit."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -172,7 +172,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage5}
-                        alt=""
+                        alt="A screenshot of the RightWork's daily scheduling view."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
@@ -198,7 +198,7 @@ export default function RightStandards() {
                     <div>
                       <Image
                         src={standardsImage5}
-                        alt=""
+                        alt="A screenshot of the RightWork's daily scheduling view."
                         style={{borderRadius: "10px", border: "3px solid #1C2541", boxShadow: "0 25px 50px -12px rgb(0 0 0 / 0.25)"}}
                       />
                     </div>
