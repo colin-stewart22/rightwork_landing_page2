@@ -12,6 +12,7 @@ export default function Login() {
     <>
       <Head>
         <title>Go To App Login - RightWork</title>
+        <link rel="canonical" href="https://www.getrightwork.com/login" />
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
@@ -49,7 +50,7 @@ export default function Login() {
               className="w-3/4"
             >
               <span>
-                Go to RightWork app login <span aria-hidden="true">&rarr;</span>
+                Proceed to login <span aria-hidden="true">&rarr;</span>
               </span>
             </Button>
           </a>

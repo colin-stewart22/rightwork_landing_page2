@@ -67,6 +67,7 @@ export default function Register() {
     <>
       <Head>
         <title>Book a Call - RightWork </title>
+        <link rel="canonical" href="https://www.getrightwork.com/register" />
       </Head>
       <AuthLayout>
         <div className="flex flex-col">

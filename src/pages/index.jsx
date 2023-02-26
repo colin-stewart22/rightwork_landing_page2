@@ -8,7 +8,8 @@ import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Testimonials } from '@/components/Testimonials'
+import { Integrations } from '@/components/Integrations'
+import { Testimonial } from '@/components/Testimonial'
 
 
 export default function Home() {
@@ -20,14 +21,16 @@ export default function Home() {
           name="description"
           content="Auto-scheduling made simple."
         />
+        <link rel="canonical" href="https://www.getrightwork.com/" />
       </Head>
       <Header />
       <main>
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
+        <Testimonial />
         <CallToAction />
-        <Testimonials />
+        <Integrations />
         <Pricing />
         <Faqs />
       </main>
