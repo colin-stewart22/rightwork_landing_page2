@@ -92,7 +92,21 @@ export default function Register() {
             </p>
           </div>
         </div>
-        <form
+        <div className="col-span-full mt-10">
+          <a href="https://meetings.hubspot.com/colin-mac-stewart1" rel="noreferrer" target="_blank">
+            <Button
+              type="submit"
+              variant="solid"
+              color="blue"
+              className="w-3/4"
+            >
+              <span>
+                Choose a Time <span aria-hidden="true">&rarr;</span>
+              </span>
+            </Button>
+          </a>
+        </div>
+        {/* <form
           action="#"
           className="mt-6 grid grid-cols-1 gap-y-6 gap-x-6 sm:grid-cols-2"
           onSubmit={handleSubmit}
@@ -162,7 +176,7 @@ export default function Register() {
               </span>
             </Button>
           </div>
-        </form>
+        </form> */}
       </AuthLayout>
     </>
   )
