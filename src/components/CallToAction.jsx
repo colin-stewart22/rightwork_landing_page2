@@ -21,7 +21,7 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            What are your waiting for?
+            What are you waiting for?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
             Get started saving time, optimizing labor, controlling costs, reducing churn, and delighting customers.
