@@ -56,12 +56,12 @@ export function Hero() {
       </div> */}
       <h1 className="mx-auto max-w-4xl font-display text-3xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         <span className="relative whitespace-nowrap text-blue-600">
-          <span className="relative">Auto-scheduling</span>
+          <span className="relative">AI-powered</span>
         </span>{' '}
-        made simple.
+        forecasting and scheduling
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Create weekly schedules that work for both your employees and your business at the click of a button. Save time, control costs, and take the guesswork out of scheduling.
+        Use more precise forecasts and create weekly schedules that work for both your employees and your business at the click of a button. Save time, control costs, and take the guesswork out of scheduling.
       </p>
       <div className="mt-10 mb-16 flex justify-center gap-x-6">
         <Button href="/register">Get started</Button>

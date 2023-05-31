@@ -205,7 +205,7 @@ export function Header() {
                               </div>
                             </div>
                           </Popover.Button>
-                          <Popover.Button as={Link} href="/rightwait">
+                          {/* <Popover.Button as={Link} href="/rightwait">
                             <div className="flex hover:bg-gray-100 rounded-lg p-2 mt-2">
                               <div className="w-20">
                                 <div className="bg-blue-100 w-12 h-12 rounded-full mt-1 flex justify-center items-center text-blue-500">
@@ -220,7 +220,7 @@ export function Header() {
                                 <p className="text-gray-500 text-sm ml-3">Seamlessly manage your waiting and host experience - turn tables faster and delight your customers</p>
                               </div>
                             </div>
-                          </Popover.Button>
+                          </Popover.Button> */}
                         </div>
                       </Popover.Panel>
                     </Transition.Child>

@@ -21,7 +21,7 @@ const faqs = [
     },
     {
       question: 'Does RightWork optimize schedules for companies outside of the restaurant industry?',
-      answer: 'As of now, RightWork only creates labor models and schedules for the restaurant industry. However, we are working towards expanding into other avenues of retail and hospitality, or anywhere where managers are manually deploying hourly workers.'
+      answer: 'Yes, RightWork can help any company in the service industry that deploys hourly workers optimize their labor. Right now, we are working with restaurants, hotels, and retail chains.'
     }
   ],
   [

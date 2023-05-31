@@ -13,6 +13,7 @@ import screenshotTest2 from '@/images/screenshots/test2.png'
 import screenshotTest3 from '@/images/screenshots/test3.png'
 import screenshotTest4 from '@/images/screenshots/test4.png'
 import screenshotTest5 from '@/images/screenshots/test5.png'
+import screenshotTest6 from '@/images/screenshots/test6.png'
 
 const features = [
   {
@@ -23,24 +24,24 @@ const features = [
     imageAlt: "A screenshot of the RightWork's weekly scheduling view."
   },
   {
-    title: 'Important inputs',
+    title: 'Empowered employees',
     description:
-      "Make your employees happy and churn less with schedules that adhere to their availability and preferences.",
+      "Make your employees happy and churn less with schedules that adhere to their availability, preferences, and target hours.",
     image: screenshotTest3,
     imageAlt: "A screenshot of an Edit Availability modal showing all the potential inputs for a particular employee's availability and preferred times."
   },
   {
-    title: 'Detailed forecasting',
+    title: 'Precision AI forecasting',
     description:
-      "See sales and labor forecasts across the day so you know how many employees and types of roles are needed for optimal coverage.",
-    image: screenshotTest4,
+      "Get more accurate sales and labor forecasts with our machine learning algorithm that looks at historical sales, weather, and events.",
+    image: screenshotTest6,
     imageAlt: "A screenshot of a Deployment Guide showing a bar chart of the employee count and roles at specific times across the day."
   },
   {
     title: '360 degree reporting',
     description:
       'Gain a comprehensive understanding of your labor costs and business performance across multiple locations through easy-to-read email reports.',
-    image: screenshotTest5,
+    image: screenshotTest4,
     imageAlt: "A screenshot of a Coverage Graph showing a bar chart of the optimal vs scheduled workload at specific times across the day."
   },
 ]

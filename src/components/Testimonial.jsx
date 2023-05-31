@@ -20,9 +20,9 @@ export function Testimonial() {
           </blockquote>
           <figcaption className="mt-10">
             {/* <div className="mx-auto h-10 w-10 rounded-full bg-red-200"></div> */}
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+            <div className="mt-4 flex flex-col md:flex-row items-center justify-center space-x-3 text-base">
               <div className="font-semibold text-gray-900">Lars Koerber</div>
-              <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
+              <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900 hidden md:block">
                 <circle cx={1} cy={1} r={1} />
               </svg>
               <div className="text-gray-600">President of Operations at Kizuki</div>
