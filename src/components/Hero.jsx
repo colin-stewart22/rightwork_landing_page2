@@ -61,7 +61,7 @@ export function Hero() {
         forecasting and scheduling
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Use more precise forecasts and create weekly schedules that work for both your employees and your business at the click of a button. Save time, control costs, and take the guesswork out of scheduling.
+        Forecast more precisely and create weekly schedules that work for both your employees and your business at the click of a button. Save time, control costs, and take the guesswork out of scheduling.
       </p>
       <div className="mt-10 mb-16 flex justify-center gap-x-6">
         <Button href="/register">Get started</Button>
