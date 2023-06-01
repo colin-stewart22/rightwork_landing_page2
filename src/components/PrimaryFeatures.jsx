@@ -33,7 +33,7 @@ const features = [
   {
     title: 'Precision AI forecasting',
     description:
-      "Get more accurate sales and labor forecasts with our machine learning algorithm that looks at historical sales, weather, and events.",
+      "Forecast sales and labor more accurately with our machine learning algorithm that looks at historical sales, weather, and events.",
     image: screenshotTest6,
     imageAlt: "A screenshot of a Deployment Guide showing a bar chart of the employee count and roles at specific times across the day."
   },
