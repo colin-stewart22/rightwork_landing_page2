@@ -17,7 +17,7 @@ const faqs = [
   [
     {
       question: 'What is auto-scheduling and how does it work?',
-      answer: 'Auto-scheduling is the process of running an algorithm to match schedules to forecasted sales as efficiently as possibile. Unlike most auto-scheduling software, RightWork uses a bottoms-up approach, where we breakdown the forecast all the way to the product and channel levels. This ensures that when we map the required work to potential shifts, the results are as accurate as possible.'
+      answer: 'Auto-scheduling is the process of running an algorithm to match schedules to forecasted sales as efficiently as possible. Unlike most auto-scheduling software, RightWork uses a bottoms-up approach, where we breakdown the forecast all the way to the product and channel levels. This ensures that when we map the required work to potential shifts, the results are as accurate as possible.'
     },
     {
       question: 'Does RightWork optimize schedules for companies outside of the restaurant industry?',
