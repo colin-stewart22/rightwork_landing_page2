@@ -95,7 +95,7 @@ function MobileNavigation() {
             <MobileNavLink href="/rightspark">RightSpark <FlareIcon /></MobileNavLink>
             <MobileNavLink href="/rightwait">RightWait <ScheduleIcon /></MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="https://meetings.hubspot.com/colin-mac-stewart1">Contact Sales</MobileNavLink>
+            <MobileNavLink href="https://meetings.hubspot.com/colin33">Contact Sales</MobileNavLink>
             <MobileNavLink href="https://getrightwork.dev/">Sign in</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -242,7 +242,7 @@ export function Header() {
               <NavLink href="https://getrightwork.dev/">Sign in</NavLink>
             </div>
             <div className="hidden sm:block">
-              <Button href="https://meetings.hubspot.com/colin-mac-stewart1" target="_blank" color="blue">
+              <Button href="https://meetings.hubspot.com/colin33" target="_blank" color="blue">
                 <span>
                   Contact Sales
                 </span>

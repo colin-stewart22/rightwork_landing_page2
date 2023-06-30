@@ -93,7 +93,7 @@ export default function Register() {
           </div>
         </div>
         <div className="col-span-full mt-10">
-          <a href="https://meetings.hubspot.com/colin-mac-stewart1" rel="noreferrer" target="_blank">
+          <a href="https://meetings.hubspot.com/colin33" rel="noreferrer" target="_blank">
             <Button
               type="submit"
               variant="solid"
